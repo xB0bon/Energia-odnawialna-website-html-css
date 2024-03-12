@@ -45,11 +45,9 @@ body {
     color: #777;
     background-color:white;
     text-align:center;
-    text-align: justify;
-    margin: 0 auto;
+      margin: 0 auto;
     box-sizing: border-box;
-    margin: 0 auto;
-    display: flex;
+      display: flex;
       justify-content: center; /* wyśrodkowanie poziome */
       align-items: center; /* wyśrodkowanie pionowe */
   }
@@ -62,8 +60,7 @@ body {
 
   .przycisk {
     margin: 0 auto;
-    display: block;
-    float: left;
+      float: left;
     margin-right: 10px;
     width: 15.7%;
     height: 100px;

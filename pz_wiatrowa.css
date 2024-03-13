@@ -1,9 +1,7 @@
-body {
-    background-color: white;
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
+@import url('pz.css');
+
+li {
+    padding-bottom: 30px;
 }
 
 #str1 {
@@ -21,112 +19,6 @@ body {
 
 }
 
-.caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-.caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-
-#nav {
-    float: left ;
-    width: 100%;
-    height: 190px;
-    color: #777;
-    background-color:white;
-    text-align: justify;
-    margin: 0 auto;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center; /* wyśrodkowanie poziome */
-    align-items: center; /* wyśrodkowanie pionowe */
-}
-
-#navmain {
-    width: 100%;
-    height: 40px;
-    margin-bottom: 100px;
-}
-
-.przycisk {
-    margin: 0 auto;
-    float: left;
-    margin-right: 10px;
-    width: 15.7%;
-    height: 100px;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: flex;
-    justify-content: center; /* wyśrodkowanie poziome */
-    align-items: center; /* wyśrodkowanie pionowe */
-}
-p {
-    text-align: justify;
-    font-size: 25px;
-    padding: 30px;
-    padding-bottom: 100px;
-}
-
-.przycisk:hover {
-    background-color: #45a049;
-}
-
-@media only screen and (max-width: 1100px) {
-    .przycisk {
-        width: 100%; /* Szerokość na pełną dostępną szerokość */
-        margin-bottom: 10px;
-        float: none;
-        height: auto;
-    }
-    p {
-        font-size: medium;
-    }
-
-    #nav {
-        display: flex;
-        justify-content: center; /* wyśrodkowanie poziome */
-        align-items: center; /* wyśrodkowanie pionowe */
-    }
-    #navmain {
-        height: 230px;
-    }
-    #nav {
-        height: 280px;
-    }
-    ol {
-        font-size: medium;
-    }
-    li{
-        font-size: medium;
-    }
-}
-.content {
-    width: 100%;
-    background-color: white;
-    border-top:#000 1px dotted;
-}
-h1 {
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 10px;
-}
 
 #str2 {
     position: relative;
@@ -169,27 +61,4 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
 
-}
-footer {
-    background-color: #2f3f30;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    letter-spacing: 4px;
-}
-
-ol {
-    font-size: 30px; text-align: justify;
-}
-
-li {
-    padding: 25px;
-}
-a {
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 3px;
 }

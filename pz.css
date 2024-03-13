@@ -106,6 +106,9 @@ p {
   ol {
     font-size: medium;
   }
+  li{
+      font-size: medium;
+  }
   #navmain {
     height: 230px;
   }

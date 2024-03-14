@@ -1,4 +1,4 @@
-@import url('pz.css');
+@import url('../pz.css');
 
 li {
     padding-bottom: 30px;
@@ -7,7 +7,7 @@ li {
 #str1 {
     position: relative;
     width: 100%;
-    background-image: url("img/energia_sloneczna/zdj1.jpg");
+    background-image: url("../img/energia_sloneczna/zdj1.jpg");
     height: 1000px;
   /* Set a specific height */
     min-height: 500px;
@@ -24,7 +24,7 @@ li {
 #str2 {
   position: relative;
   width: 100%;
-  background-image: url("img/energia_sloneczna/zdj2.jpg");
+  background-image: url("../img/energia_sloneczna/zdj2.jpg");
   height: 1200px;
 /* Set a specific height */
   min-height: 500px;
@@ -38,7 +38,7 @@ li {
 #str3 {
   position: relative;
   width: 100%;
-  background-image: url("img/energia_sloneczna/zdj3.jfif");
+  background-image: url("../img/energia_sloneczna/zdj3.jfif");
   height: 1200px;
 /* Set a specific height */
   min-height: 500px;
@@ -52,7 +52,7 @@ li {
 #str4 {
   position: relative;
   width: 100%;
-  background-image: url("img/energia_sloneczna/zdj4.jpeg");
+  background-image: url("../img/energia_sloneczna/zdj4.jpeg");
   height: 1200px;
 /* Set a specific height */
   min-height: 500px;

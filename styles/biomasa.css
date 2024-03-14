@@ -1,4 +1,4 @@
-@import url('pz.css');
+@import url('../pz.css');
 
 li {
     padding-bottom: 30px;
@@ -7,7 +7,7 @@ li {
 #str1 {
     position: relative;
     width: 100%;
-    background-image: url("img/biomasa/zdj1.jpg");
+    background-image: url("../img/biomasa/zdj1.jpg");
     height: 1000px;
     /* Set a specific height */
     min-height: 500px;
@@ -24,7 +24,7 @@ li {
 #str2 {
     position: relative;
     width: 100%;
-    background-image: url("img/biomasa/zdj2.jpg");
+    background-image: url("../img/biomasa/zdj2.jpg");
     height: 1200px;
     /* Set a specific height */
     min-height: 500px;
@@ -38,7 +38,7 @@ li {
 #str3 {
     position: relative;
     width: 100%;
-    background-image: url("img/biomasa/zj3.jpg");
+    background-image: url("../img/biomasa/zj3.jpg");
     height: 1200px;
     /* Set a specific height */
     min-height: 500px;
@@ -52,7 +52,7 @@ li {
 #str4 {
     position: relative;
     width: 100%;
-    background-image: url("img/biomasa/zdj4.jpg");
+    background-image: url("../img/biomasa/zdj4.jpg");
     height: 1200px;
     /* Set a specific height */
     min-height: 500px;
@@ -66,7 +66,7 @@ li {
 #str5 {
     position: relative;
     width: 100%;
-    background-image: url("img/biomasa/zdj5.jfif");
+    background-image: url("../img/biomasa/zdj5.jfif");
     height: 1200px;
     /* Set a specific height */
     min-height: 500px;
@@ -80,7 +80,7 @@ li {
 #str6 {
     position: relative;
     width: 100%;
-    background-image: url("img/biomasa/zdj6.jpg");
+    background-image: url("../img/biomasa/zdj6.jpg");
     height: 1200px;
     /* Set a specific height */
     min-height: 500px;

@@ -1,8 +1,5 @@
 @import url('../pz.css');
 
-li {
-    padding-bottom: 30px;
-}
 
 #str1 {
     position: relative;
@@ -93,7 +90,5 @@ li {
 }
 
 
-li {
-    font-size: 25px;
-}
+
 

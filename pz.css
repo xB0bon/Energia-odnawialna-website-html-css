@@ -123,6 +123,7 @@ h1 {
   }
   li{
       font-size: medium;
+      padding-left: 30px;
   }
     ul{
         font-size: medium;

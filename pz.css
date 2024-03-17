@@ -90,7 +90,9 @@ p {
 
 @media only screen and (max-width: 1100px) {
   .przycisk {
-      width: 100%; /* Szerokość na pełną dostępną szerokość */
+      display: block;
+      margin: auto;
+      width: 80%; /* Szerokość na pełną dostępną szerokość */
       margin-bottom: 10px;
       float: none;
       height: auto;
@@ -103,12 +105,18 @@ p {
       justify-content: center; /* wyśrodkowanie poziome */
       align-items: center; /* wyśrodkowanie pionowe */
   }
+  body {
+      font-size: medium;
+  }
   ol {
     font-size: medium;
   }
   li{
-      font-size: medium;
+      font-size: 10px;
   }
+    ul{
+        font-size: medium;
+    }
   #navmain {
     height: 230px;
   }
@@ -179,6 +187,7 @@ footer {
       bottom: 0;
       letter-spacing: 4px;
 }
-ol {
-  font-size: 30px; text-align: justify;
+
+li {
+    font-size: 25px;
 }

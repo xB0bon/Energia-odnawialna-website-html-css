@@ -1,0 +1,128 @@
+@import url('../pz.css');
+
+#zalety, #wady {
+    width: 50%; /* Zmniejszamy szerokość bloków, aby zmieściły się obok siebie */
+    float: left;
+    margin: 0;
+}
+.content1 {
+    width: 100%;
+    height: auto;
+    border-top: 1px dotted #000;
+    background-color: #fcc6c6;
+    overflow: hidden; /* Dodajemy overflow: hidden, aby zawartość nie wychodziła poza obszar .content */
+}
+#zalety {
+    background-color: #c6fcc8;
+}
+#wady {
+    background-color: #fcc6c6;
+}
+@media only screen and (max-width: 1100px) {
+    #zalety, #wady {
+        width: 100%;
+        float: none;
+    }
+    .content1 {
+        background-color: white;
+    }
+}
+
+
+#str1 {
+    position: relative;
+    width: 100%;
+    background-image: url("../img/energia_wodna/zdj1.jpeg");
+    height: 1000px;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: none;
+
+}
+
+
+
+#str2 {
+    float: none;
+    position: relative;
+    width: 100%;
+    background-image: url("../img/energia_wodna/zdj2.jpg");
+    height: 1200px;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#str3 {
+    float: none;
+    position: relative;
+    width: 100%;
+    background-image: url("../img/energia_wodna/zdj3.jpg");
+    height: 1200px;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#str4 {
+    float: none;
+    position: relative;
+    width: 100%;
+    background-image: url("../img/energia_wodna/zdj4.jpg");
+    height: 1200px;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#str5 {
+    float: none;
+    position: relative;
+    width: 100%;
+    background-image: url("../img/energia_wodna/zdj5.jpg");
+    height: 1200px;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#str6 {
+    position: relative;
+    width: 100%;
+    background-image: url("../img/biomasa/zdj6.jpg");
+    height: 1200px;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+

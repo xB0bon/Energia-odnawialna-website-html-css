@@ -136,10 +136,14 @@ h1 {
   }
 }
 .content {
-  width: 100%;
-  background-color: white;
-  border-top:#000 1px dotted;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-top: 1px dotted #000;
+    overflow: hidden; /* Dodajemy overflow: hidden, aby zawartość nie wychodziła poza obszar .content */
 }
+
+
 
 
 #str2 {

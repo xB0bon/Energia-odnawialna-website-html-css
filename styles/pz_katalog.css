@@ -24,11 +24,14 @@
     text-align: center;
     height: 1200px;
     box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.2s;
 }
 
 .business-card:hover {
     background-color: #f1f1f1;
     transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
 }
 .business-card h1 {
     color: #333333;

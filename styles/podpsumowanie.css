@@ -1,0 +1,108 @@
+@import url('../pz.css');
+#str1 {
+    background-image: url("../img/podsumowanie/zdj1.jpg");
+}
+#str2 {
+    background-image: url("../img/podsumowanie/zdj2.jpg");
+}
+#str3 {
+    background-image: url("../img/podsumowanie/zdj3.jpg");
+}
+#str4 {
+    background-image: url("../img/podsumowanie/zdj4.jpg");
+    height: 1200px;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+#str5 {
+    background-image: url("../img/podsumowanie/zdj5.jpg");
+    height: 1200px;
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+#str6 {
+    height: 1200px;
+    background-image: url("../img/podsumowanie/zdj6.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.benefits, .challenges {
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: transform 0.3s, box-shadow 0.2s;
+
+}
+
+.benefits:hover {
+    background-color: #f5fff5;
+    transform: scale(1.02);
+}
+.challenges:hover {
+    background-color: #ffeeee;
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Stylizacja tytułów sekcji */
+.benefits h2, .challenges h2 {
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+/* Stylizacja list */
+.benefits ul, .challenges ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.costs, .distribution {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.2s;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+
+}
+.costs:hover, .distribution:hover {
+    background-color: #fafff7;
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    text-align: center;
+}

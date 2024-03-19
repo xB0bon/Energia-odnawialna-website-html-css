@@ -59,7 +59,7 @@ body {
 }
 
   .przycisk {
-    margin: 0 auto;
+
       float: left;
     margin-right: 10px;
     width: 13%;
@@ -77,6 +77,9 @@ body {
       justify-content: center; /* wyśrodkowanie poziome */
       align-items: center; /* wyśrodkowanie pionowe */
 }
+  .przycisk:first-of-type {
+      margin-left: 25px;
+  }
 p {
   text-align: justify; 
   font-size: 25px;
@@ -98,12 +101,18 @@ h1 {
 @media only screen and (max-width: 1100px) {
     h1 {
         font-size: 20px;
+
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .przycisk:first-of-type {
+        margin: 0 auto 10px;
     }
   .przycisk {
       display: block;
-      margin: auto;
       width: 80%; /* Szerokość na pełną dostępną szerokość */
-      margin-bottom: 10px;
+      margin: auto auto 10px;
       float: none;
       height: auto;
   }

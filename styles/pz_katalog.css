@@ -9,18 +9,27 @@
 #str3 {
     background-image: url(../img/Katalog_firm/ZDJ3.webp);
 }
+#str4 {
+    background-image: url(../img/Katalog_firm/zdj3.jpg);
+}
+
 .business-card {
-    background-color: #ffffff;
-    width: 31%;
+    background-color: #fcfcfc;
+    width: 32%;
     float: left;
-    margin: 50px auto;
+    margin: 20px auto 20px 20px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     height: 1200px;
+    box-sizing: border-box;
 }
 
+.business-card:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+}
 .business-card h1 {
     color: #333333;
 }

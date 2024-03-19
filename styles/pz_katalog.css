@@ -1,0 +1,58 @@
+@import url('../pz.css');
+
+#str1 {
+    background-image: url(../img/Katalog_firm/zdj1.jpg);
+}
+#str2 {
+    background-image: url(../img/Katalog_firm/zdj2.jpg);
+}
+#str3 {
+    background-image: url(../img/Katalog_firm/ZDJ3.webp);
+}
+.business-card {
+    background-color: #ffffff;
+    width: 31%;
+    float: left;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 1200px;
+}
+
+.business-card h1 {
+    color: #333333;
+}
+
+.business-card a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+
+}
+
+.business-card p {
+    color: #666666;
+    
+    padding-top: 0;
+    text-align: left;
+
+}
+
+@media only screen and (max-width: 1714px) {
+    .business-card {
+        background-color: #ffffff;
+        width: 100%;
+        float: none;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        height: auto;
+    }
+
+    
+
+}

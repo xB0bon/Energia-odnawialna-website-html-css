@@ -1,27 +1,66 @@
 @import url('../pz.css');
 
+ul {
+    color: #464545;
+}
+ol {
+    color: #464545;
+}
+
+
 #zalety, #wady {
-    width: 50%; /* Zmniejszamy szerokość bloków, aby zmieściły się obok siebie */
+    width: calc(50% - 25px);
     float: left;
-    margin: 0;
+    /* Skrócony zapis marginesu */
+    margin: 20px 20px 20px 0;
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+#zalety:hover {
+    background-color: #b0e1b2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+#wady:hover {
+    background-color: #e5b6b6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
 }
 .content1 {
     width: 100%;
     height: auto;
     border-top: 1px dotted #000;
-    background-color: #fcc6c6;
-    overflow: hidden; /* Dodajemy overflow: hidden, aby zawartość nie wychodziła poza obszar .content */
+    overflow: hidden;
 }
+
 #zalety {
-    background-color: #c6fcc8;
+    background-color: white;
+    border-radius: 40px;
+    height: 1000px;
+    margin-left: 10px;
 }
+
 #wady {
-    background-color: #fcc6c6;
+    background-color: white;
+    border-radius: 40px;
+    height: 1000px;
+    /* Usuń stałą wysokość */
+}
+
+/* Dodajemy regułę CSS, aby upewnić się, że bloki są równo ułożone nawet w przypadku, gdy jedna z nich ma większą wysokość */
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 @media only screen and (max-width: 1100px) {
     #zalety, #wady {
         width: 100%;
+        height: auto;
         float: none;
+        margin:0 auto;
     }
     .content1 {
         background-color: white;
